@@ -1,4 +1,4 @@
-# archive-all-yahoo-emails
+Archive All Yahoo Emails
 A simple script to archive all of your emails like a human, because the feature doesn't exists.
 
 Be sure be using the latest version of Yahoo mail. Which looks like this...
