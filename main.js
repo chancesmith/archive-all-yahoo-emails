@@ -1,9 +1,12 @@
 function archiveAvailEmails() {
+  // click SelectAll button
   document
     .querySelector(
       "#mail-app-component > div.W_6D6F.D_F > div > div.en_0 > div > div:nth-child(1) > div > div > ul > li:nth-child(1) > span > button"
     )
     .click();
+  
+  // click Archive button as soon as possible
   setTimeout(function() {
     document
       .querySelector(
@@ -13,6 +16,7 @@ function archiveAvailEmails() {
   }, 700);
 }
 
+// check every 6s if there are more emails to archive
 setInterval(function() {
   if (
     document.querySelector(
